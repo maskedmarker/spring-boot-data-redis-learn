@@ -12,6 +12,7 @@
     <modules>
         <module>ch00-commons</module>
         <module>ch01-hello</module>
+        <module>ch02-cluster</module>
     </modules>
 
     <properties>
