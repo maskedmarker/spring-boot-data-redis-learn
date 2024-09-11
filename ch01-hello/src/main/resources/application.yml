@@ -1,0 +1,26 @@
+# web server
+server:
+  port: 9081
+
+# spring auto configure
+spring:
+  application:
+    name: user-service
+  redis:
+    host: 192.168.175.129
+    port: 6379
+#    cluster:
+#      nodes:
+#        - host1:6379
+#        - host2:6379
+#        - host3:6379
+#      password: yourPassword # If password is set
+
+
+# logging
+logging:
+  level:
+    root: DEBUG
+    org:
+      springframework:
+        web: INFO
