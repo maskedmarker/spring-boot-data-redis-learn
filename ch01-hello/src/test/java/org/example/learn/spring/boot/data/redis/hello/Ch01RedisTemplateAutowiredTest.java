@@ -9,7 +9,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 @SpringBootTest
-public class TestCase001RedisTemplateAutowiredTest {
+public class Ch01RedisTemplateAutowiredTest {
 
     @Autowired
     private RedisTemplate<Object, Object> redisTemplate;
