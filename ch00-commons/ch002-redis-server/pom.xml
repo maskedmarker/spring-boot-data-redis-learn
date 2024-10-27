@@ -5,16 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>org.example.learn.spring.boot.data.redis</groupId>
-        <artifactId>spring-boot-data-redis-learn</artifactId>
+        <artifactId>ch00-commons</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>ch00-commons</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>ch001-model</module>
-        <module>ch002-redis-server</module>
-    </modules>
+    <artifactId>ch002-redis-server</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
@@ -22,4 +17,11 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.github.kstyrc</groupId>
+            <artifactId>embedded-redis</artifactId>
+            <version>0.6</version>
+        </dependency>
+    </dependencies>
 </project>

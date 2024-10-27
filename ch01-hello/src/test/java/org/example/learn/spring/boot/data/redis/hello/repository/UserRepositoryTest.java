@@ -5,9 +5,6 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.yaml.snakeyaml.events.Event;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 @SpringBootTest
 public class UserRepositoryTest {
